@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema aplikasi -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Menentukan tema dasar aplikasi -->
+        <item name="colorPrimary">@color/colorprimary</item>
+        <item name="colorPrimaryDark">@color/colorprimarydark</item>
+        <item name="colorAccent">@color/coloraccent</item>
+    </style>
+
+    <!-- Tema khusus untuk splash screen -->
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+</resources>
